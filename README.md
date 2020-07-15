@@ -36,12 +36,8 @@ https://aisoa.cn/post-2566.html
 # 结论
 csdn_epprom_custom.bin 是个人newifi d1 路由上跑得最稳定（连接无断流），2.4G/5G信号均比较强。
 下图是隔了一堵墙后的wifi连接测试图：
-<img src="photo_2020-07-10_09-30-31.jpg" width="200" height="400" />
+<img src="photo_2020-07-10_09-30-31.jpg" width="200" height="400" /><img src="photo_2020-07-10_09-30-29.jpg width="200" height="400" /><img src="photo_2020-07-10_09-30-30.jpg width="200" height="400" />
 
-![test2](photo_2020-07-10_09-30-29.jpg)
-
-![test3](photo_2020-07-10_09-30-30.jpg)
-
-** Youtube performance **
+## Youtube performance
 
 ![YouTube Performance](youtube_perf_newifi_d1.png)
