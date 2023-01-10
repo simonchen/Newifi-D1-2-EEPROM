@@ -33,6 +33,11 @@ https://aisoa.cn/post-2566.html
 这个版本都是一致好评是和极路由B70的EEPROM杂交，实际使用2.4G信号不错，但仍不如1. 
 5G信号远弱于1.和2.的ROM，但是2.4G的信号稳定性不错。
 
+5. 按MT7612文档校准的EEPROM
+0x50H = 0x86 (减少2.4GHZ在40M传输功率-3dB)
+0x52H = 0xC8 (增加5GHZ在80M传输功率+4dB)
+
+
 # 结论
 csdn_epprom_custom.bin 是个人newifi d1 路由上跑得最稳定（连接无断流），2.4G/5G信号均比较强。
 下图是隔了一堵墙后的wifi连接测试图：
