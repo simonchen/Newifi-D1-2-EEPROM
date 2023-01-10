@@ -34,9 +34,10 @@ https://aisoa.cn/post-2566.html
 5G信号远弱于1.和2.的ROM，但是2.4G的信号稳定性不错。
 
 5. 按MT7612文档校准的EEPROM
-0x50H = 0x86 (减少2.4GHZ在40M传输功率-3dB)
-0x52H = 0xC8 (增加5GHZ在80M传输功率+4dB)
-
+0x50H = 0x86 (减少2.4GHZ在40M传输功率-3dBm)
+0x52H = 0xC8 (增加5GHZ在80M传输功率+4dBm)
+0x64H = 0x2e (目标54M传输功率23dBm = 23 * 2 = 46 = 0x2e)
+0x69H = 0x2e (目标54M传输功率23dBm = 23 * 2 = 46 = 0x2e)
 
 # 结论
 csdn_epprom_custom.bin 是个人newifi d1 路由上跑得最稳定（连接无断流），2.4G/5G信号均比较强。
