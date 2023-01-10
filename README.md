@@ -37,6 +37,8 @@ https://aisoa.cn/post-2566.html
 
 0x50H = 0x86 (减少2.4GHZ在40M传输功率-3dBm)
 
+0x51H = 0xC8 (增加5GHZ在80M传输功率+4dBm)
+
 0x52H = 0xC8 (增加5GHZ在80M传输功率+4dBm)
 
 0x64H = 0x2e (目标54M传输功率23dBm = 23 * 2 = 46 = 0x2e)
