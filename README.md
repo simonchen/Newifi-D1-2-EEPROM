@@ -37,6 +37,8 @@ https://aisoa.cn/post-2566.html
 
 0x50H = 0x86 (减少2.4GHZ在40M传输功率-3dBm)
 
+0x45H/0x49H/0x4dH = 0x8C (外部LNA增益+12dB)
+
 0x51H = 0xC8 (增加5GHZ在80M传输功率+4dBm)
 
 0x52H = 0xC8 (增加5GHZ在80M传输功率+4dBm)
