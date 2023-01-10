@@ -2,7 +2,7 @@
 从某宝入了个Newifi-D1 ，发现2.4G信号非常弱，隔一堵墙后，一连接，信号立马消失。
 原因应该是原来的路由用的eeprom有问题，从网上找了好几个版本的EEPROM，比较2.4G信号强度和稳定性
 
-# EEPROM 比较
+## EEPROM 比较
 1. eeprom.bin 下载从CSDN 
 https://download.csdn.net/detail/a11717959/10628490
 https://download.csdn.net/download/cheng3900/11250957
@@ -33,7 +33,7 @@ https://aisoa.cn/post-2566.html
 这个版本都是一致好评是和极路由B70的EEPROM杂交，实际使用2.4G信号不错，但仍不如1. 
 5G信号远弱于1.和2.的ROM，但是2.4G的信号稳定性不错。
 
-5. 按MT7612文档校准的EEPROM
+## 按MT7612文档校准的EEPROM 
 
 0x50H = 0x86 (减少2.4GHZ在40M传输功率-3dBm)
 
