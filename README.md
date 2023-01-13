@@ -33,7 +33,8 @@ https://aisoa.cn/post-2566.html
 这个版本都是一致好评是和极路由B70的EEPROM杂交，实际使用2.4G信号不错，但仍不如1. 
 5G信号远弱于1.和2.的ROM，但是2.4G的信号稳定性不错。
 
-## 按MT7612文档校准的EEPROM 
+## EEPROM - 按MT7612文档校准5G与新3杂交2.4G
+csdn_epprom_custom_2_20230110.bin
 
 0x50H = 0x86 (减少2.4GHZ在40M传输功率-3dBm)
 
