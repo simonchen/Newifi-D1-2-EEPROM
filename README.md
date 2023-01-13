@@ -34,7 +34,7 @@ https://aisoa.cn/post-2566.html
 5G信号远弱于1.和2.的ROM，但是2.4G的信号稳定性不错。
 
 ## EEPROM - 按MT7612文档校准5G与新3杂交2.4G
-csdn_epprom_custom_2_20230110.bin
+[csdn_epprom_custom_2_20230110.bin](https://github.com/simonchen/Newifi-D1-2-EEPROM/blob/master/csdn_epprom_custom_2_20230110.bin)
 
 0x50H = 0x86 (减少2.4GHZ在40M传输功率-3dBm)
 
